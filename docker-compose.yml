@@ -2,12 +2,12 @@ version: '3'
 
 services:
   web:
-    build: ./docker/web
+    build: ./docker
     ports:
     - ${ANNIVERSARY_APACHE_PORT}:80
     command: sh /init.sh
     volumes:
-    - ${ANNIVERSARY_SRC}:/var/www/html
+    - ${ANNIVERSARY_SRC}:/var/www/html/laravel-init-docker
     - ./docker/web:/etc/apache2/sites-enabled
     - ./docker/web/init.sh:/init.sh
     - ./logs/web:/var/log/apache2
