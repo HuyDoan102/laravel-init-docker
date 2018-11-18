@@ -24,7 +24,7 @@ RUN service apache2 restart
 RUN apt-get install git -y
 
 # Create User
-ARG APP_USER=annivesary
+ARG APP_USER=anniversary
 ARG PUID=1000
 ARG PGID=1000
 
@@ -41,4 +41,4 @@ RUN chown -R ${APP_USER}:${APP_USER} /var/www/html/
 
 ENV HOME /home/${APP_USER}
 
-WORKDIR /var/www/html
+WORKDIR /var/www/html/laravel-init-docker

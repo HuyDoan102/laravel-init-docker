@@ -46,3 +46,18 @@
 [Sat Nov 17 18:00:15.117376 2018] [core:warn] [pid 52] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
 [Sat Nov 17 18:00:15.122369 2018] [mpm_prefork:notice] [pid 52] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
 [Sat Nov 17 18:00:15.122402 2018] [core:notice] [pid 52] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Nov 18 03:17:19.969215 2018] [core:warn] [pid 41] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 18 03:17:19.974299 2018] [mpm_prefork:notice] [pid 41] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Nov 18 03:17:19.974339 2018] [core:notice] [pid 41] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Nov 18 03:22:42.454843 2018] [core:warn] [pid 41] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 18 03:22:42.460500 2018] [mpm_prefork:notice] [pid 41] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Nov 18 03:22:42.460543 2018] [core:notice] [pid 41] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Nov 18 03:26:42.970488 2018] [core:warn] [pid 50] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 18 03:26:42.974687 2018] [mpm_prefork:notice] [pid 50] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Nov 18 03:26:42.974714 2018] [core:notice] [pid 50] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Nov 18 03:28:02.926092 2018] [core:warn] [pid 38] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 18 03:28:02.929623 2018] [mpm_prefork:notice] [pid 38] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Nov 18 03:28:02.929671 2018] [core:notice] [pid 38] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Nov 18 03:43:31.594420 2018] [core:warn] [pid 51] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 18 03:43:31.598301 2018] [mpm_prefork:notice] [pid 51] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Nov 18 03:43:31.598337 2018] [core:notice] [pid 51] AH00094: Command line: '/usr/sbin/apache2'
