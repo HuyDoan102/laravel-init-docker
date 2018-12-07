@@ -22,7 +22,22 @@ services:
     - MYSQL_USER=${MYSQL_USER}
     - MYSQL_PASSWORD=${MYSQL_PASSWORD}
 
-
+  selenium-hub:
+      image: selenium/hub:3.141.59-copernicium
+      container_name: selenium-hub
+      volumes:
+        - /dev/shm:/dev/shm
+      ports:
+        - "4444:4444"
+  chrome:
+    image: selenium/node-chrome-debug:3.141.59-copernicium
+    ports:
+      - "5900:5900"
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
   adminer:
     image: adminer
     ports:
